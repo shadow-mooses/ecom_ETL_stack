@@ -3,11 +3,16 @@
 - containerized version of airflow
 - standalone installation of dbt
 
+## Schedules
+- Airflow to generate new data for data warehouse cluster every five minutes
+- Airflow to trigger data cleaning and write data to a compute cluster every 10 minutes
+- dbt to refresh it's sources/models (dbt run) every 15 minutes.
+
 ## Data Flow
 
-Airflow to generate and write new lines of data every minute to the sales/orders/customers tables in mysql
-Build data transformations in dbt
-Airflow to trigger a dbt run every 5 minutes to refresh tables
+Airflow to generate and write new lines of data every minute to the sales/orders/customers tables in mysql - this is to simulate online orders coming through.
+Build data transformations in dbt - this is to simulate transformations of tables for an analyst or bi tool to manipulate and dashboard.
+Airflow to trigger a dbt run every 5 minutes to refresh tables.
 
 ## Initialization notes
 Airflow
@@ -28,3 +33,7 @@ dbt
 1. create a new directory in your ELT project. Run `dbt init` to initialize and create the project directories.
 2. 
 
+
+
+bugs to fix
+integrity  error - need to allow duplicate records in customer id
