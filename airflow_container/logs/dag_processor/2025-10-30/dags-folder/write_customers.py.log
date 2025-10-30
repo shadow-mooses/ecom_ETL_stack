@@ -430,3 +430,5 @@
 {"timestamp":"2025-10-30T18:56:18.157514Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/write_customers.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-10-30T18:56:48.674720Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/write_customers.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-10-30T18:57:19.181724Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/write_customers.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-30T18:57:49.633281Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/write_customers.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-30T18:58:20.155037Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/write_customers.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
