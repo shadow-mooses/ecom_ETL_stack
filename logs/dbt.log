@@ -1,0 +1,88 @@
+[0m14:02:00.110044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057c4cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1208bef80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1208bf190>]}
+
+
+============================== 14:02:00.112426 | 6623efc9-a3c1-4b94-9b67-2be0057bdbec ==============================
+[0m14:02:00.112426 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:02:00.112718 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/will_tang/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m14:02:08.458830 [debug] [MainThread]: Starter project path: /Users/will_tang/miniconda3/envs/airflow_dbt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:02:08.478214 [info ] [MainThread]: 
+Your new dbt project "ecom_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:02:08.478849 [info ] [MainThread]: Setting up your profile.
+[0m14:02:18.780700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057c4cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1208bfd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1208becb0>]}
+[0m14:02:18.782568 [debug] [MainThread]: Flushing usage events
+[0m14:05:30.624938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d0d450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eb7550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eb7760>]}
+
+
+============================== 14:05:30.627023 | 40a7c1ad-438a-4164-9aa9-fc29c66dc6fa ==============================
+[0m14:05:30.627023 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:05:30.627302 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/will_tang/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:05:30.627601 [info ] [MainThread]: dbt version: 1.7.9
+[0m14:05:30.627758 [info ] [MainThread]: python version: 3.10.19
+[0m14:05:30.627901 [info ] [MainThread]: python path: /Users/will_tang/miniconda3/envs/airflow_dbt/bin/python3.10
+[0m14:05:30.628039 [info ] [MainThread]: os info: macOS-26.0.1-arm64-arm-64bit
+[0m14:05:30.723242 [info ] [MainThread]: Using profiles dir at /Users/will_tang/.dbt
+[0m14:05:30.723634 [info ] [MainThread]: Using profiles.yml file at /Users/will_tang/.dbt/profiles.yml
+[0m14:05:30.723877 [info ] [MainThread]: Using dbt_project.yml file at /Users/will_tang/Documents/GitHub/ELT_airflow_dbt_stack/dbt_project.yml
+[0m14:05:30.724133 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:05:30.726367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d0d450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eb6230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105456380>]}
+[0m14:05:30.726578 [debug] [MainThread]: Flushing usage events
+[0m14:08:51.511509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11025b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11310f790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11310f9a0>]}
+
+
+============================== 14:08:51.513603 | a2c97b5f-93d9-4a81-8024-027065084fff ==============================
+[0m14:08:51.513603 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:08:51.513875 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'cache_selected_only': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'warn_error': 'None', 'no_print': 'None', 'quiet': 'False', 'invocation_command': 'dbt init', 'fail_fast': 'False', 'introspect': 'True', 'debug': 'False', 'version_check': 'True', 'partial_parse': 'True', 'profiles_dir': '/Users/will_tang/.dbt', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m14:08:59.060780 [debug] [MainThread]: Starter project path: /Users/will_tang/miniconda3/envs/airflow_dbt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:08:59.078334 [info ] [MainThread]: 
+Your new dbt project "ecom_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:08:59.079249 [info ] [MainThread]: Setting up your profile.
+[0m14:09:04.695398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11025b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11310e200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11310f4c0>]}
+[0m14:09:04.696910 [debug] [MainThread]: Flushing usage events
+[0m14:09:26.338088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c5b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107acf7c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107acf9d0>]}
+
+
+============================== 14:09:26.340433 | 4d5adcd8-07b8-4b2e-a5f0-a3ffa70a5101 ==============================
+[0m14:09:26.340433 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:09:26.340733 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'version_check': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error': 'None', 'log_format': 'default', 'introspect': 'True', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'debug': 'False', 'log_path': 'logs', 'log_cache_events': 'False', 'printer_width': '80', 'static_parser': 'True', 'use_colors': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'profiles_dir': '/Users/will_tang/.dbt', 'cache_selected_only': 'False', 'invocation_command': 'dbt debug'}
+[0m14:09:26.341038 [info ] [MainThread]: dbt version: 1.7.9
+[0m14:09:26.341190 [info ] [MainThread]: python version: 3.10.19
+[0m14:09:26.341334 [info ] [MainThread]: python path: /Users/will_tang/miniconda3/envs/airflow_dbt/bin/python3.10
+[0m14:09:26.341480 [info ] [MainThread]: os info: macOS-26.0.1-arm64-arm-64bit
+[0m14:09:26.431549 [info ] [MainThread]: Using profiles dir at /Users/will_tang/.dbt
+[0m14:09:26.431870 [info ] [MainThread]: Using profiles.yml file at /Users/will_tang/.dbt/profiles.yml
+[0m14:09:26.432035 [info ] [MainThread]: Using dbt_project.yml file at /Users/will_tang/Documents/GitHub/ELT_airflow_dbt_stack/dbt_project.yml
+[0m14:09:26.432224 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:09:26.434125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c5b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ace1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10804e320>]}
+[0m14:09:26.434331 [debug] [MainThread]: Flushing usage events

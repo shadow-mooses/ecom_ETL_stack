@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  # dbt-core with MySQL adapter
+  dbt:
+    image: python:3.11-slim
+    container_name: dbt-core
+    working_dir: /usr/app/dbt
+    network_mode: host
+    volumes:
+      - ./dbt:/usr/app/dbt
+      - ~/.dbt:/root/.dbt
+    environment:
+      DBT_PROFILES_DIR: /root/.dbt
+    command: >
+      bash -c "
+      apt-get update &&
+      apt-get install -y git &&
+      pip install --no-cache-dir 'protobuf<5.0.0' dbt-core dbt-mysql &&
+      tail -f /dev/null
+      "
+    stdin_open: true
+    tty: true
