@@ -1,0 +1,1 @@
+select * from {{source('sample_data','sales_orders')}}

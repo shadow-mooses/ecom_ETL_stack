@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sample_data
+    tables:
+      - name: customers
+      - name: sales_orders
+      - name: products
