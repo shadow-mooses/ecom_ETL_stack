@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: sales_per_customer
+    description: aggregate of the number of sales per customer
+    columns:
+      - name: user_id
+        description: id of each user
+        data tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_customers')
+              field: id
+      - name: customer_first_name
+        description: first name of the customer
+      - name:  customer_last_name
+        description: last name of the customer
+      - name:  sales_per_customer
+        description: count of the number of items purchased by each customer in the db
+
+  - name: sales_per_store
+    description: sums the amount of sales per store
+    columns:
+      - name: store_name
+        description: id of each user
+        data tests:
+          - not_null
+          - unique
+      - name: total_sales
+        description: sum of the amount of sales based on product table and price
