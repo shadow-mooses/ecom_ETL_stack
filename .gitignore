@@ -1,3 +1,4 @@
 /archive
 /logs
 /airflow_container/logs
+/dbt_container/dbt/logs
