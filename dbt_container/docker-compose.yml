@@ -5,7 +5,7 @@ services:
   dbt:
     image: python:3.11-slim
     container_name: dbt-core
-    working_dir: /usr/app/dbt
+    working_dir: /usr/app/dbt/ecom_analysis
     network_mode: host
     volumes:
       - ./dbt:/usr/app/dbt
